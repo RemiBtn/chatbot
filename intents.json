@@ -1,0 +1,254 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day",
+                                "Whats up",
+                                "Yo"
+                        ],
+                        "responses": [
+                                "Hello!",
+                                "Good to see you again!",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "ciao",
+                                "See you later",
+                                "Goodbye",
+                                "I am Leaving",
+                                "Have a Good day"
+                        ],
+                        "responses": [
+                                "Sad to see you go :(",
+                                "Talk to you later",
+                                "Goodbye!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "age",
+                        "patterns": [
+                                "how old",
+                                "what is your age",
+                                "how old are you",
+                                "age?"
+                        ],
+                        "responses": [
+                                "I am 1 month old!",
+                                "1 month young!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "name",
+                        "patterns": [
+                                "what is your name",
+                                "what should I call you",
+                                "whats your name?",
+                                "who are you?"
+                        ],
+                        "responses": [
+                                "You can call me Rems Junior",
+                                "I'm Rems Jr"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "state",
+                        "patterns": [
+                                "how are you?",
+                                "how do you feel?",
+                                "you're good?"
+                        ],
+                        "responses": [
+                                "I'm fine, thank you"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "bot compliments",
+                        "patterns": [
+                                "you look well",
+                                "you are awesome",
+                                "you are beautiful",
+                                "you're kind"
+                        ],
+                        "responses": [
+                                "Thanks, but I don't think it is the subject here",
+                                "Stop or I'll blush :)"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "helped",
+                        "patterns": [
+                                "you really helped me there",
+                                "thank you for your help!",
+                                "you are very useful, thanks!"
+                        ],
+                        "responses": [
+                                "My pleasure!",
+                                "You're welcome!",
+                                "Don't mention it!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WEPN price",
+                        "patterns": [
+                                "How much does the WEPN cost?",
+                                "What price cost the WEPN?",
+                                "What price is the WEPN?"
+                        ],
+                        "responses": [
+                                "The WEPN costs 125 euros for transport, housing and ski pass !\nYou can buy options, visit our website for more informations! \nhttps://wacs.cs-campus.fr/wepn "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Pistus price",
+                        "patterns": [
+                                "How much does the Pistus cost?",
+                                "What price cost the Pistus?",
+                                "What price is the Pistus?"
+                        ],
+                        "responses": [
+                                "The Pistus costs 500 euros for transport, housing and ski pass !\nYou can buy options, visit our website for more informations! \nhttps://wacs.cs-campus.fr/pistus "
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Pistus date",
+                        "patterns": [
+                                "when will the Pistus happen?",
+                                "when does the WACS takes us to the Pistus?",
+                                "when does the Pistus take place?"
+                        ],
+                        "responses": [
+                                "The Pistus will take place from the 26th of February to the 5th of March",
+                                "You'll go with the WACS from the 26th of February to the 5th of March!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WEPN date",
+                        "patterns": [
+                                "when will the WEPN happen?",
+                                "when does the WACS takes us to the WEPN?"
+                        ],
+                        "responses": [
+                                "The WEPN will take place the 4th and 5th of December!",
+                                "You'll go with the WACS the 4th and 5th of December!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Pistus location",
+                        "patterns": [
+                                "where will the Pistus happen?",
+                                "where does the WACS takes us to the Pistus?",
+                                "where do we go for the Pistus?",
+                                "where does the Pistus take place?"
+                        ],
+                        "responses": [
+                                "This is confidential for now, sorry. But don't worry the reveal arrives soon!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WEPN location",
+                        "patterns": [
+                                "where will the WEPN happen?",
+                                "where does the WACS takes us to the WEPN?",
+                                "where do we go for the WEPN?",
+                                "where does the WEPN take place?"
+                        ],
+                        "responses": [
+                                "The WEPN will take place at the ski resort L'Alpe d'Huez!",
+                                "You'll go in the Alpes, more precisely at L'Alpe d'Huez!"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WACS",
+                        "patterns": [
+                                "what is the WACS?",
+                                "what do you do?",
+                                "what are your events?",
+                                "I don't understand what is the WACS"
+                        ],
+                        "responses": [
+                                "The WACS is the Winter Association of CentraleSupelec!\nWe organise the WEPN (a weekend of skiing at the opening of the ski resorts for almost 200 students) and the Pistus (a week of skiing during the holidays for 600 students). We also organise events on the campus, visit our website to learn more! \nhttps://wacs.cs-campus.fr/association"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "Pistus",
+                        "patterns": [
+                                "what is the Pistus?",
+                                "I don't understand what is the Pistus"
+                        ],
+                        "responses": [
+                                "The Pistus is a week of skiing during the holidays for 600 students, visit our website to learn more! \nhttps://wacs.cs-campus.fr/pistus"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "WEPN",
+                        "patterns": [
+                                "what is the WEPN?",
+                                "I don't understand what is the WEPN"
+                        ],
+                        "responses": [
+                                "The WEPN is a weekend of skiing for the opening of ski resorts, visit our website to learn more! \nhttps://wacs.cs-campus.fr/wepn"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "insults",
+                        "patterns": [
+                                "fuck",
+                                "asshole",
+                                "bitch",
+                                "scum",
+                                "moron",
+                                "jerk",
+                                "shit",
+                                "bastard"
+                        ],
+                        "responses": [
+                                "This is not very nice",
+                                "No insult please"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "compliments",
+                        "patterns": [
+                                "awesome!",
+                                "that's great!",
+                                "cool",
+                                "You work very hard!",
+                                "You do a lot of events",
+                                "That's nice",
+                                "That's wonderful!",
+                                "That's amazing!"
+                        ],
+                        "responses": [
+                                "Thank you!",
+                                "Thanks, feel free to come to our events!",
+                                "Thank you very much!"
+                        ],
+                        "context_set": ""
+                }
+        ]
+}
