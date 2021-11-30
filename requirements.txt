@@ -1,0 +1,21 @@
+json5==0.9.5
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_1594397536060/work
+simplejson==3.17.2
+ujson==1.35
+mkl-random==1.1.1
+tensorflow==2.7.0
+tensorflow-estimator==2.7.0
+tensorflow-io-gcs-filesystem==0.22.0
+tflearn==0.5.0
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+backports.weakref==1.0.post1
+contextlib2==0.6.0.post1
+fenics-ffc==2019.1.0.post0
+nose @ file:///tmp/build/80754af9/nose_1606773131901/work
+oauth2==1.9.0.post1
+pycosat==0.6.3
